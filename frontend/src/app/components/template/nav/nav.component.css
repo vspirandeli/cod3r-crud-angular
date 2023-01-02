@@ -16,3 +16,7 @@
   padding: 16px;
   background-color: #FFF;
 }
+
+.nav-list a {
+  text-decoration: none;
+}
