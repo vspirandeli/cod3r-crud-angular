@@ -4,8 +4,31 @@
   background-color: #3F51B5;
 }
 
-.sidenav a {
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.anchor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
   color: #FFFFFF;
+  
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  
+  text-decoration: none;
+}
+
+.anchor:target {
+  background-color: '#0c2396';
+  transition: background-color 0.5s ease-in-out;
 }
 
 .sidenav i {
@@ -15,8 +38,4 @@
 .content {
   padding: 16px;
   background-color: #FFF;
-}
-
-.nav-list a {
-  text-decoration: none;
 }
